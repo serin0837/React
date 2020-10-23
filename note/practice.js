@@ -48,7 +48,7 @@ const doubleNum = numbers.map(num=>{
 console.log(doubleNum)
 
 const doubleNumd = numbers.forEach(num=>{
-    return [num*2]
+    return num*2
 })
 
 console.log(doubleNumd)
