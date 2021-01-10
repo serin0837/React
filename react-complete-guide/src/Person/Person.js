@@ -1,7 +1,12 @@
 import React from "react"
 // ex6 function
-const person = () => {
-    return <p>I am a person</p>
+const person = (props) => {
+    return (
+    <div>
+    <p onClick = {props.click}>I am a {props.name} person and I am {props.age}  years old!</p>
+    <p>{props.children}</p>
+    </div>
+        )
 }
 
 export default person 
